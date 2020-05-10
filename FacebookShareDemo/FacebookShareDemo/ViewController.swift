@@ -15,15 +15,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let loginButton = FBLoginButton()
-        loginButton.center = view.center
-        loginButton.permissions = ["public_profile", "email"]
-        view.addSubview(loginButton)
+//        let loginButton = FBLoginButton()
+//        loginButton.center = view.center
+//        loginButton.permissions = ["public_profile", "email"]
+//        view.addSubview(loginButton)
     }
     
     @IBAction func  btnFBShareClick (_ sender: AnyObject) {
-            faceBookShare()
-        }
+        faceBookShare()
+    }
         
     func faceBookShare()
     {
